@@ -1,0 +1,16 @@
+{
+  "post": [
+    {
+      "title": "Dall",
+      "body": "3456",
+      "id": 3,
+      "selectQuantity": "2Kg"
+    },
+    {
+      "title": "rice new",
+      "body": "123456",
+      "id": 4,
+      "selectQuantity": "5Kg"
+    }
+  ]
+}

@@ -1,0 +1,15 @@
+.control, .select, h1, .card, .post-submit {
+  margin-bottom: 15px;
+}
+.navbar {
+  background-color: #00d1b2 !important;
+}
+ .m-r-15{
+   margin-right: 15px;
+ }
+ #post {
+   margin-top: 15px;
+ }
+ .is-primary, .navbar {
+   background-color: #1a2b48 !important;
+ }

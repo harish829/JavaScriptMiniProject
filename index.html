@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  
+  <title>Grocery List</title>
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/bulma/0.7.4/css/bulma.min.css">
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.12.1/css/all.min.css">
+  <link rel="stylesheet" href="css/main.css">
+  
+  
+</head>
+<body>
+  <nav class="navbar bg-primary " role="navigation" aria-label="main navigation">
+    <div class="navbar-brand">
+      <a class="navbar-item is-centered has-text-white" href="#">
+        Grocery List
+      </a>
+  
+      <a role="button" class="navbar-burger" aria-label="menu" aria-expanded="false">
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+        <span aria-hidden="true"></span>
+      </a>
+    </div>
+  </nav>
+  <section class="section">
+    <div class="container">
+     <div class="card">   
+       <div class="card-content postContainer">
+      <h1 class="is-size-3">Grocery List</h1>
+      <div class="form-group">
+      <div class="columns">
+        <div class="column is-half card-form"> 
+          <div class="control is-medium">
+            <input class="input" id="title" type="text" placeholder="Grocery List">
+          </div>
+          
+          <div class="control">
+            <input class="input" id="body" type="number" placeholder="Grocery Price">
+          </div>
+          <input class="input" id="id" type="hidden">
+           <div class="select">
+            <select id="selectQuantity">
+              <option>Select dropdown</option>
+              <option value="1Kg">1Kg</option>
+              <option value="2Kg">2Kg</option>
+              <option value="3Kg">3Kg</option>
+              <option value="4Kg">4Kg</option>
+              <option value="5Kg">5Kg</option>
+            </select>
+          </div>
+        </div>
+      </div>
+       
+    </div>
+    <button class="postSubmit button is-primary">Post It</button>
+      <span class="form-end"></span>
+      <div id="post"></div>
+      </div>
+    </div>
+  </section>
+ 
+  <footer class="has-text-centered">
+    Grocery Post @copy
+  </footer>
+  <script src="build/app.bundle.js"></script>
+</body>
+</html>
